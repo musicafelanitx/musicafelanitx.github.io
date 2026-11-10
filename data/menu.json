@@ -1,0 +1,27 @@
+{
+  "principal": [
+    { "titol": "Actualitat", "url": "/actualitat/" },
+    { "titol": "Calendari", "url": "/calendari/" },
+    { "titol": "Estudis", "url": "/estudis/", "fills": [
+      { "titol": "Matrícula", "url": "/estudis/matricula/", "desc": "Formularis, preus i terminis del curs 2026-27" },
+      { "titol": "Pla d'estudis", "url": "/estudis/pla-estudis/", "desc": "Ensenyaments reglats i no reglats" },
+      { "titol": "Proves d'accés", "url": "/estudis/proves-acces/", "desc": "Grau elemental i professional" },
+      { "titol": "Documents", "url": "/estudis/documents/", "desc": "Formularis, SEPA, autoritzacions" },
+      { "titol": "Espai Portocolom", "url": "/estudis/espai-portocolom/", "desc": "Música i dansa a Portocolom" }
+    ]},
+    { "titol": "Activitats", "url": "/activitats/", "fills": [
+      { "titol": "Música al Jardí", "url": "/activitats/musica-al-jardi/", "desc": "Tallers i espectacles en família" },
+      { "titol": "Mallorca Piano Days", "url": "/activitats/mallorca-piano-days/", "desc": "Classes magistrals de piano" },
+      { "titol": "Campus Música Creativa", "url": "/activitats/campus-musica-creativa/", "desc": "A Jazz de Mar · juliol" },
+      { "titol": "Cor Jove", "url": "/activitats/cor-jove/", "desc": "Cors per edats, els divendres" }
+    ]},
+    { "titol": "Conservatori", "url": "/conservatori/", "fills": [
+      { "titol": "Professorat", "url": "/conservatori/professorat/", "desc": "Equip directiu i docent" },
+      { "titol": "Instal·lacions", "url": "/conservatori/installacions/", "desc": "El nostre edifici" },
+      { "titol": "Preguntes freqüents", "url": "/conservatori/preguntes-frequents/", "desc": "Dubtes habituals de famílies" },
+      { "titol": "Normativa", "url": "/conservatori/normativa/", "desc": "Normativa oficial i de centre" },
+      { "titol": "Fundació", "url": "/conservatori/fundacio/", "desc": "Fundació Felanitx per a la Música" },
+      { "titol": "Contacte", "url": "/conservatori/contacte/", "desc": "On som i com contactar" }
+    ]}
+  ]
+}

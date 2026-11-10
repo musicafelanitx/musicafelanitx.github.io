@@ -1,0 +1,38 @@
+---
+title: Pàgina no trobada
+nocerca: si
+---
+<script>
+/* Redirigeix les adreces antigues de Google Sites a les noves */
+(function () {
+  var map = {
+    "/estudis/matricula": "/estudis/matricula/",
+    "/estudis/proves-dacces": "/estudis/proves-acces/",
+    "/estudis/pla-destudis": "/estudis/pla-estudis/",
+    "/estudis/pla-destudis/mes-info": "/estudis/pla-estudis/mes-info/",
+    "/activitats/chopin-sessions": "/activitats/mallorca-piano-days/",
+    "/activitats/chopin-sessions/masterclass": "/activitats/mallorca-piano-days/",
+    "/activitats/musica-al-jardi": "/activitats/musica-al-jardi/",
+    "/activitats/campus-musica-creativa": "/activitats/campus-musica-creativa/",
+    "/conservatori/installacions": "/conservatori/installacions/",
+    "/conservatori/avis-legal": "/conservatori/avis-legal/",
+    "/conservatori/preguntes-frequents": "/conservatori/preguntes-frequents/",
+    "/conservatori/fundacio": "/conservatori/fundacio/",
+    "/home": "/"
+  };
+  var p = decodeURIComponent(location.pathname).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/\/+$/, "");
+  var to = map[p];
+  if (!to && p && p.slice(-1) !== "/") {
+    // qualsevol altra ruta sense barra final: prova-la amb barra
+    var candidates = ["/actualitat", "/calendari", "/estudis", "/estudis/documents", "/estudis/espai-portocolom", "/activitats", "/activitats/cor-jove", "/conservatori", "/conservatori/professorat", "/conservatori/normativa", "/conservatori/contacte"];
+    if (candidates.indexOf(p) > -1) to = p + "/";
+  }
+  if (to && to !== location.pathname) location.replace(to + location.hash);
+})();
+</script>
+<section class="page-head" style="text-align:center;margin:40px auto">
+  <span class="eyebrow">Error 404</span>
+  <h1>Aquesta pàgina no sona</h1>
+  <p class="lead" style="margin:0 auto 28px">Potser l'adreça ha canviat amb la nova web. Prova la cerca o torna a l'inici.</p>
+  <div class="btns" style="justify-content:center"><a class="btn" href="/">Torna a l'inici</a><button class="btn btn-ghost" data-search-open>Cerca a la web</button></div>
+</section>

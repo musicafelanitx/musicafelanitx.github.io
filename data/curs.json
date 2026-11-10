@@ -1,0 +1,29 @@
+{
+  "curs": "2026-2027",
+  "inici": "2026-09-24",
+  "fi": "2027-06-17",
+  "text": "24 de setembre de 2026 al 17 de juny de 2027",
+  "trimestres": [
+    {
+      "nom": "1r trimestre", "inici": "2026-09-24", "fi": "2026-12-22", "text": "24 set – 22 des",
+      "fites": [
+        { "nom": "Tribunals", "inici": "2026-12-11", "fi": "2026-12-16", "text": "11–16 des" },
+        { "nom": "Audicions", "inici": "2026-12-17", "fi": "2026-12-22", "text": "17–22 des" }
+      ]
+    },
+    {
+      "nom": "2n trimestre", "inici": "2027-01-07", "fi": "2027-03-24", "text": "7 gen – 24 març",
+      "fites": [
+        { "nom": "Tribunals", "inici": "2027-03-15", "fi": "2027-03-17", "text": "15–17 març" },
+        { "nom": "Audicions", "inici": "2027-03-19", "fi": "2027-03-24", "text": "19–24 març" }
+      ]
+    },
+    {
+      "nom": "3r trimestre", "inici": "2027-04-05", "fi": "2027-06-17", "text": "5 abr – 17 juny",
+      "fites": [
+        { "nom": "Tribunals", "inici": "2027-06-07", "fi": "2027-06-11", "text": "7–11 juny" },
+        { "nom": "Audicions", "inici": "2027-06-14", "fi": "2027-06-17", "text": "14–17 juny" }
+      ]
+    }
+  ]
+}
