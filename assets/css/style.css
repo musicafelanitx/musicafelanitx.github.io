@@ -278,7 +278,8 @@ a.tile--img:hover img { transform: scale(1.04); }
 /* ---------- hero ---------- */
 .hero { text-align: center; padding: clamp(24px, 3.5vw, 44px) 0 0; }
 .section--near { margin-top: clamp(40px, 5vw, 64px); }
-.hero h1 { font-size: clamp(2.8rem, 1.2rem + 6.4vw, 6.4rem); line-height: .98; letter-spacing: -.055em; margin: 0 auto .3em; max-width: 14ch; }
+.hero h1 { font-size: clamp(2.3rem, 1.3rem + 3.6vw, 4.2rem); line-height: 1.04; letter-spacing: -.045em; margin: 0 auto .4em; max-width: none; }
+.hero h1 em { display: block; }
 .hero h1 em { font-style: normal; color: var(--muted); }
 .hero .lead { margin: 0 auto 32px; }
 .hero .btns { justify-content: center; }
@@ -533,3 +534,13 @@ dialog.lightbox img { max-width: 94vw; max-height: 90vh; border-radius: 14px; }
 .pick-steps strong { color: var(--ink); }
 @media (max-width: 640px) { .pick-steps { grid-template-columns: 1fr; } }
 .btn-lg { padding: 15px 24px; font-size: 16px; font-weight: 600; }
+
+/* franja grisa a tot l'ample per separar seccions */
+.band { position: relative; background: var(--band, #f0f0f3); box-shadow: 0 0 0 100vmax var(--band, #f0f0f3); clip-path: inset(0 -100vmax); padding: clamp(40px, 5vw, 64px) 0; }
+.band + .section, .section + .band { margin-top: clamp(40px, 5vw, 64px); }
+.band .tile:not(.tile--img) { background: var(--bg); }
+.band .tile--img img, .band .tile--img .tile-img { background: var(--bg); }
+.band .btn-ghost { background: var(--bg); }
+.band + .cta { background: var(--bg); border: 1.5px solid var(--line); }
+:root[data-theme="dark"] { --band: #111113; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --band: #111113; } }
