@@ -276,7 +276,7 @@ a.tile--img:hover img { transform: scale(1.04); }
 .tile--img .chip { background: none; padding: 0; color: var(--muted); }
 
 /* ---------- hero ---------- */
-.hero { text-align: center; padding: clamp(0px, 1.2vw, 16px) 0 0; }
+.hero { text-align: center; padding: clamp(24px, 3.5vw, 44px) 0 0; }
 .section--near { margin-top: clamp(40px, 5vw, 64px); }
 .hero h1 { font-size: clamp(2.8rem, 1.2rem + 6.4vw, 6.4rem); line-height: .98; letter-spacing: -.055em; margin: 0 auto .3em; max-width: 14ch; }
 .hero h1 em { font-style: normal; color: var(--muted); }
