@@ -545,8 +545,19 @@ dialog.lightbox img { max-width: 94vw; max-height: 90vh; border-radius: 14px; }
 :root[data-theme="dark"] { --band: #111113; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --band: #111113; } }
 
-/* menú mòbil: Gestib i Gwido com la resta d'apartats */
-.nav-extra .nav-ext { flex-basis: 100%; display: flex; justify-content: space-between; align-items: center; padding: 16px 0; font: 600 22px/1.2 var(--head); letter-spacing: -.02em; color: var(--ink); border-bottom: 1px solid var(--line); text-decoration: none; }
-.nav-extra .nav-ext span { color: var(--muted); font-size: 18px; }
-.nav-extra .nav-ext + [data-theme-toggle] { margin-top: 16px; }
-.nav-extra { row-gap: 0; padding-top: 0; }
+/* Gestib i Gwido: a l'ordinador, com els altres enllaços del menú */
+@media (min-width: 1061px) {
+  .nav { display: flex; align-items: center; }
+  .nav-extra { display: flex; align-items: center; gap: 2px; margin-left: 2px; padding-left: 8px; border-left: 1px solid var(--line); }
+  .nav-extra .nav-ext { padding: 8px 10px; font-size: 14.5px; font-weight: 500; color: var(--muted); text-decoration: none; transition: color .15s; }
+  .nav-extra .nav-ext:hover { color: var(--ink); }
+  .nav-extra .nav-ext span { font-size: 12px; }
+  .nav-extra [data-theme-toggle] { display: none; }
+}
+/* al mòbil, com la resta d'apartats */
+@media (max-width: 1060px) {
+  .nav-extra { row-gap: 0; padding-top: 0; }
+  .nav-extra .nav-ext { flex-basis: 100%; display: flex; justify-content: space-between; align-items: center; padding: 16px 0; font: 600 22px/1.2 var(--head); letter-spacing: -.02em; color: var(--ink); border-bottom: 1px solid var(--line); text-decoration: none; }
+  .nav-extra .nav-ext span { color: var(--muted); font-size: 18px; }
+  .nav-extra .nav-ext + [data-theme-toggle] { margin-top: 16px; }
+}
