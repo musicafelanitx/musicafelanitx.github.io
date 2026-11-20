@@ -13,7 +13,8 @@
       { "titol": "Música al Jardí", "url": "/activitats/musica-al-jardi/", "desc": "Tallers i espectacles en família" },
       { "titol": "Mallorca Piano Days", "url": "/activitats/mallorca-piano-days/", "desc": "Classes magistrals de piano" },
       { "titol": "Campus Música Creativa", "url": "/activitats/campus-musica-creativa/", "desc": "A Jazz de Mar · juliol" },
-      { "titol": "Cor Jove", "url": "/activitats/cor-jove/", "desc": "Cors per edats, els divendres" }
+      { "titol": "Cor Jove", "url": "/activitats/cor-jove/", "desc": "Cors per edats, els divendres" },
+      { "titol": "Felanitx Big Band", "url": "/activitats/big-band/", "desc": "Jazz i música moderna en gran formació" }
     ]},
     { "titol": "Conservatori", "url": "/conservatori/", "fills": [
       { "titol": "Professorat", "url": "/conservatori/professorat/", "desc": "Equip directiu i docent" },
