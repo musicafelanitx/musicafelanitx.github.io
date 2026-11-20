@@ -1,7 +1,7 @@
 ---
 titol: Posam en marxa la Felanitx Big Band
 categoria: Activitats
-imatge: /img/big-band-1.jpg
+imatge: /img/big-band-2.jpg
 resum: Nova Big Band al Conservatori, dirigida pel saxofonista Carles Medina. Jazz, swing i funk en gran formació per a alumnes de diferents nivells i instruments.
 ---
 El Conservatori de Felanitx posa en marxa la **Felanitx Big Band**, una nova activitat complementària dirigida pel saxofonista felanitxer **Carles Medina**.
